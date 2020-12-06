@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+  <html lang="sr">
+
+  <head>
+    <title>Autoservis Ključ | Početna</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stil.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+
+
+
+     <header>
+
+
+        <a href="index.html" class="logo"><img src="logo/logo.png" alt="logo"></a>
+        <nav>
+          <ul>
+            <li><a href='index.html'>POČETNA</a></li>
+            <li><a href='index.html#onama'>O NAMA</a></li>
+            <li><a href="galerija.html">GALERIJA</a></li>
+            <li><a href="asortiman.html">USLUGE</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+          </nav>
+  
+
+       <div class="soc-net">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+
+
+    </header>
+
+    <div id="hammenu">
+
+
+<div class="soc-net">
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+      <a href="index.html"><img id="logo" src="logo/logo.png" alt="logo" title="logo"></a>
+      <img id="icon" src="slike/hamburger.png" alt="hammenu" title="hammenuicon">
+      <img src="slike/x.png" alt="closeicon" id="close">
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="index.html#onama">O NAMA</a></li>
+          <li><a href="galerija.html">GALERIJA</a></li>
+          <li><a href="asortiman.html">USLUGE</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+
+
+
+      <script>
+      var otvori=document.getElementById('icon');
+var zatvori=document.getElementById('close');
+var navigacija=document.getElementById('nav');
+
+otvori.addEventListener('click',show, false);
+zatvori.addEventListener('click',remove, false);
+
+function show(evObj){
+  var klik=evObj.target;
+    if(klik.tagName.toUpperCase()==='IMG'){
+      navigacija.style.display="block";
+      zatvori.style.display="block";
+      otvori.style.display="none";
+    }
+}
+
+function remove(e){
+  var cilj=e.target;
+    if(cilj.tagName.toUpperCase()==='IMG'){
+      navigacija.style.display="none";
+      zatvori.style.display="none";
+      otvori.style.display="block";
+    }
+}</script>
+
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="slideshow-container">
+
+
+  <div class="mySlides fade">
+    <img src="slike/1.jpg" style="width:100%" alt="">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="slike/2.jpg" style="width:100%" alt="">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="slike/3.jpg" style="width:100%" alt="">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="slike/4.jpg" style="width:100%" alt="">
+  </div>
+
+
+</div>
+
+<br>
+
+
+
+    <main>
+
+<h1 id='onama'>O nama</h1>
+<p class='paragraf'> Autoservis Ključ je nastao 1998. godine sa idejom da stvorimo nešto novo i drugačije na našim prostorima. Naša prepoznatljivost je brzina, kvalitet, povoljnost. Pregled vozila pre kupovine, pri kupovini, nakon kupovine, pre odlaska na tehnički pregled ili pre odlaska na duži put obavljamo tako da se pregleda kompletno stanje vozila. Proveravaju se sve tekućine u motoru, kočnicama, stanje akumulatora, kompletan pregled vozila zajedno sa stanjem samih kočnica i guma, te se vozilo spaja na kompjutersku dijagnostiku ne bi li se videlo ima li kakvih grešaka i jesu li parametri rada motora unutar specificiranog vrednosnog okvira. Dodatno se proverava i stanje limarije, tj. je li auto bio udaren, oštećen, lakiran, i ako je, daje se procena koliki je nivo oštećenja i je li dobro popravljeno.
+    </main>
+
+
+<h2>Naši majstori će rešiti sve vaše probleme u najkraćem roku!</h2>
+
+
+
+
+
+<img class="krugovi" src='slike/1.jpg' alt="">
+<img class="krugovi" src='slike/2.jpg' alt="">
+<img class="krugovi" src='slike/3.jpg' alt="">
+<img class="krugovi" src='slike/4.jpg' alt="">
+
+
+        <footer>
+
+    <p>Radno vreme: 08-16h</p>
+
+      <p> Georgija Jakšića 14, Loznica </p>
+      <br>
+
+      <p>  Copyright  &copy; Autoservis Ključ. All rights reserved.™ </p>
+
+    </footer>
+
+
+
+
+
+
+    <script src="js/skript.js"></script>
+
+
+  </body>
+</html>
